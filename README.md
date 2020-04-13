@@ -8,6 +8,6 @@ If you need an explanation on how to use this plugin please read [my article on 
 
 ## About
 
-Wasaaa is free like in **free beer** or [name your own price](todo)
+Wareeez is free like in **free beer** or [name your own price](todo)
 
 [![Wareeez](Wareeez.gif)](https://fr.tipeee.com/nazimboudeffa#reward-300065)
