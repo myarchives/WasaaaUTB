@@ -126,7 +126,7 @@ $obj = YouPHPTubePlugin::getObjectData("Wareeez");
                   objectsToSave.push(o);
                 }
                 $.ajax({
-                    url: '<?php echo $global['webSiteRootURL']; ?>plugin/Wasaaa/save.json.php',
+                    url: '<?php echo $global['webSiteRootURL']; ?>plugin/Wareeez/save.json.php',
                     data: {"objectsToSave": objectsToSave},
                     type: 'post',
                     success: function (response) {
