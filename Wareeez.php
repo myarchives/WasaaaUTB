@@ -2,7 +2,7 @@
 
 require_once $global['systemRootPath'] . 'plugin/Plugin.abstract.php';
 
-class Wasaaa extends PluginAbstract {
+class Wareeez extends PluginAbstract {
 
     public function getDescription() {
         return "Manage Uptobox Videos Informations";
