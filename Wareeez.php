@@ -26,7 +26,7 @@ class Wareeez extends PluginAbstract {
 
     public function getEmptyDataObject() {
         $obj = new stdClass();
-        $obj->onlyAdminCanWasabiEmbed = true;
+        $obj->onlyAdminCanUptoboxEmbed = true;
         $obj->USER_TOKEN = 'Your Uptobox User Token';
         return $obj;
     }
@@ -34,7 +34,7 @@ class Wareeez extends PluginAbstract {
     public function getUploadMenuButton(){
         global $global;
         $obj = $this->getDataObject();
-        if($obj->onlyAdminCanWasabiEmbed && !User::isAdmin()){
+        if($obj->onlyAdminCanUptoboxEmbed && !User::isAdmin()){
             return '';
         }
         return '<li><a  href="'.$global['webSiteRootURL'].'plugin/Wareeez/search.php" ><span class="fa fa-link"></span> '.__("Uptobox Embed").'</a></li>';
