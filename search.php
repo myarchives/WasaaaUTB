@@ -4,7 +4,7 @@ if (!User::isLogged()) {
     header("Location: {$global['webSiteRootURL']}?error=" . __("You can not do this"));
     exit;
 }
-$obj = YouPHPTubePlugin::getObjectData("Wareeez");
+$obj = YouPHPTubePlugin::getObjectData("WasaaaUTB");
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $_SESSION['language']; ?>">
@@ -126,7 +126,7 @@ $obj = YouPHPTubePlugin::getObjectData("Wareeez");
                   objectsToSave.push(o);
                 }
                 $.ajax({
-                    url: '<?php echo $global['webSiteRootURL']; ?>plugin/Wareeez/save.json.php',
+                    url: '<?php echo $global['webSiteRootURL']; ?>plugin/WasaaaUTB/save.json.php',
                     data: {"objectsToSave": objectsToSave},
                     type: 'post',
                     success: function (response) {

@@ -10,7 +10,7 @@ $obj = new stdClass();
 $obj->error = true;
 $obj->msg = array();
 
-$objo = YouPHPTubePlugin::getObjectDataIfEnabled('Wareeez');
+$objo = YouPHPTubePlugin::getObjectDataIfEnabled('WasaaaUTB');
 
 if (empty($objo) || ($objo->onlyAdminCanWasabiEmbed && !User::isAdmin())) {
     $obj->msg[] = __("Permission denied");
@@ -33,7 +33,7 @@ if (empty($objo) || ($objo->onlyAdminCanWasabiEmbed && !User::isAdmin())) {
         $videos->setDescription("");
         $videos->setClean_title($value['title']);
         $videos->setDuration(secondsToVideoTime($value['duration']));
-        file_put_contents($global['systemRootPath'] . "videos/{$filename}.jpg", url_get_contents($global['webSiteRootURL']."plugin/Wareeez/Wareeez.jpg"));
+        file_put_contents($global['systemRootPath'] . "videos/{$filename}.jpg", url_get_contents($global['webSiteRootURL']."plugin/WasaaaUTB/WasaaaUTB.jpg"));
         $videos->setVideoLink($value['link']);
         $videos->setType('linkVideo');
 

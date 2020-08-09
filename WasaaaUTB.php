@@ -2,14 +2,14 @@
 
 require_once $global['systemRootPath'] . 'plugin/Plugin.abstract.php';
 
-class Wareeez extends PluginAbstract {
+class WasaaaUTB extends PluginAbstract {
 
     public function getDescription() {
         return "Manage Uptobox Videos Informations";
     }
 
     public function getName() {
-        return "Wareeez";
+        return "WasaaaUTB";
     }
 
     public function getUUID() {
@@ -37,6 +37,6 @@ class Wareeez extends PluginAbstract {
         if($obj->onlyAdminCanUptoboxEmbed && !User::isAdmin()){
             return '';
         }
-        return '<li><a  href="'.$global['webSiteRootURL'].'plugin/Wareeez/search.php" ><span class="fa fa-link"></span> '.__("Uptobox Embed").'</a></li>';
+        return '<li><a  href="'.$global['webSiteRootURL'].'plugin/WasaaaUTB/search.php" ><span class="fa fa-link"></span> '.__("Uptobox Embed").'</a></li>';
     }
 }

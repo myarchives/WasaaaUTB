@@ -1,6 +1,6 @@
-# Wareeez
+# WasaaaUTB
 
-Wareeez is a plugin for AVideo to let you access your videos stored on Uptobox.com
+WasaaaUTB is a plugin for AVideo to let you access your videos stored on Uptobox.com
 
 ## Usage
 
@@ -8,6 +8,6 @@ If you need an explanation on how to use this plugin please read [my article on 
 
 ## About
 
-Wareeez is free like in **free beer** or [name your own price](todo)
+WasaaaUTB is free like in **free beer** or [name your own price](todo)
 
-[![Wareeez](Wareeez.gif)](https://fr.tipeee.com/nazimboudeffa#reward-300065)
+[![WasaaaUTB](WasaaaUTB.gif)](https://fr.tipeee.com/nazimboudeffa#reward-300065)
